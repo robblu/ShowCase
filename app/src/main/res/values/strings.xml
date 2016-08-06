@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShowCast</string>
+    <string name="navigate">导航栏</string>
+    <string name="bar">显示框</string>
+    <string name="table">中间内容</string>
+    <string name="page">页面</string>
+</resources>
