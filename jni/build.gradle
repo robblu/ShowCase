@@ -1,0 +1,27 @@
+apply plugin: 'com.android.model.library'
+
+model {
+    android {
+        compileSdkVersion 24
+        buildToolsVersion "24.0.0"
+
+        defaultConfig {
+            minSdkVersion.apiLevel 15
+            targetSdkVersion.apiLevel 24
+            versionCode 1
+            versionName "1.0"
+        }
+        buildTypes {
+            release {
+                minifyEnabled false
+                proguardFiles.add(file('proguard-android.txt'))
+            }
+        }
+        ndk {
+            moduleName "msg_jni"
+        }
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+}

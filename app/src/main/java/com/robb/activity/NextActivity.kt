@@ -13,13 +13,13 @@ import android.widget.Toast
 import com.robb.R
 import com.robb.databinding.ActivityNextBinding
 import com.robb.databinding.VpItemBinding
+import com.robb.jni.JniInfoMsg
 import com.robb.material.view.NavigationTabBar
 import com.robb.mode.BaseServer
 import io.realm.Realm
 import rx.android.schedulers.AndroidSchedulers
 import rx.schedulers.Schedulers
 import java.util.*
-
 
 /**
  * Created by robbs on 2016/8/6.
@@ -33,6 +33,7 @@ class NextActivity : AppCompatActivity() {
         val bind = DataBindingUtil.setContentView<ActivityNextBinding>(this, R.layout.activity_next)
         initUI(bind)
         val realm = Realm.getDefaultInstance()
+        Toast.makeText(this, JniInfoMsg().msgFromJni, Toast.LENGTH_SHORT).show()
 //        val savedUser: PersonData? = RealmQuery.createQuery(realm, PersonData::class.java).findFirst()
         //        updateView(bind, savedUser)
         BaseServer.instance.getDataServer().takePersonInfo("f14c44cd6c74f7b4f7e154e7fa805bcb")
@@ -46,7 +47,7 @@ class NextActivity : AppCompatActivity() {
                     //                    updateView(bind, person.resData?.data)
                 }, {
                     error ->
-                    Toast.makeText(this, "Oops Sorry obtain data fail", Toast.LENGTH_SHORT).show()
+//                    Toast.makeText(this, "Oops Sorry obtain data fail", Toast.LENGTH_SHORT).show()
                 })
     }
 
