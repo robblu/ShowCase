@@ -10,7 +10,7 @@ import retrofit.RxJavaCallAdapterFactory
 
 /**
  * Created by robb on 22/4/2016.
- * email:gpicsdesigner@gmail.com
+ * email:robbslu@gmail.com
  * 单例模式 的服务提供类
  */
 class BaseServer private constructor() {

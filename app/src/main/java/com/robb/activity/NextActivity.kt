@@ -20,10 +20,12 @@ import rx.android.schedulers.AndroidSchedulers
 import rx.schedulers.Schedulers
 import java.util.*
 
+
 /**
- * Created by robb on 12/5/2016.
- * email:gpicsdesigner@gmail.com
+ * Created by robbs on 2016/8/6.
+ * email:robbslu@gmail.com
  */
+
 class NextActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

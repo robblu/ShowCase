@@ -7,8 +7,8 @@ import io.realm.annotations.PrimaryKey
 import io.realm.annotations.RealmClass
 
 /**
- * Created by robb on 26/4/2016.
- * email:gpicsdesigner@gmail.com
+ * Created by robb on 22/4/2016.
+ * email:robbslu@gmail.com
  */
 @RealmClass
 open class PersonData : RealmObject() {

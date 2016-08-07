@@ -1,10 +1,5 @@
 package com.robb.material.view;
 
-/**
- * Created by robbs on 2016/8/6.
- * email:robbslu@gmail.com
- */
-
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.os.Parcelable;
@@ -16,6 +11,10 @@ import android.view.View;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
+/**
+ * Created by robbs on 2016/8/6.
+ * email:robbslu@gmail.com
+ */
 @SuppressWarnings({"unused", "EmptyMethod"})
 abstract class VerticalScrollingBehavior<V extends View> extends CoordinatorLayout.Behavior<V> {
 

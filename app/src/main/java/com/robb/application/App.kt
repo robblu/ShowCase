@@ -6,8 +6,8 @@ import io.realm.Realm
 import io.realm.RealmConfiguration
 
 /**
- * Created by robb on 22/4/2016.
- * email:gpicsdesigner@gmail.com
+ * Created by robbs on 2016/8/6.
+ * email:robbslu@gmail.com
  */
 class App : Application() {
     override fun onCreate() {

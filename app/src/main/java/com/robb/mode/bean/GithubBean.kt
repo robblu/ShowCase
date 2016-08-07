@@ -8,7 +8,7 @@ import io.realm.annotations.RealmClass
 
 /**
  * Created by robb on 22/4/2016.
- * email:gpicsdesigner@gmail.com
+ * email:robbslu@gmail.com
  */
 @RealmClass
 open class GithubBean : RealmObject() {

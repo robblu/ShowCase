@@ -50,7 +50,9 @@ import java.util.Random;
 
 /**
  * Created by robb on 22/4/2016.
- * email:gpicsdesigner@gmail.com
+ * email:robbslu@gmail.com
+ *
+ * from github view
  */
 @SuppressWarnings({"unused", "DefaultFileTemplate"})
 public class NavigationTabBar extends View implements ViewPager.OnPageChangeListener {

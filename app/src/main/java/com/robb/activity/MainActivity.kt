@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit
 
 /**
  *  Created by robb on 12/5/2016.
- *  email:gpicsdesigner@gmail.com
+ *  email:robbslu@gmail.com
  * 默认界面启动入口
  *
  */

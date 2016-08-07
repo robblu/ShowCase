@@ -11,8 +11,8 @@ import rx.android.schedulers.AndroidSchedulers
 import java.util.concurrent.TimeUnit
 
 /**
- * Created by robb on 13/5/2016.
- * email:gpicsdesigner@gmail.com
+ * Created by robbs on 2016/8/6.
+ * email:robbslu@gmail.com
  */
 class VectorActivity : AppCompatActivity() {
     var animation: Animatable? = null

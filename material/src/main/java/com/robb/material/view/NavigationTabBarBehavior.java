@@ -1,10 +1,5 @@
 package com.robb.material.view;
 
-/**
- * Created by robbs on 2016/8/6.
- * email:robbslu@gmail.com
- */
-
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.os.Build;
@@ -18,6 +13,11 @@ import android.support.v4.view.animation.LinearOutSlowInInterpolator;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Interpolator;
+
+/**
+ * Created by robbs on 2016/8/6.
+ * email:robbslu@gmail.com
+ */
 
 public class NavigationTabBarBehavior extends VerticalScrollingBehavior<NavigationTabBar> {
 
